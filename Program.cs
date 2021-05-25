@@ -1,12 +1,11 @@
 ﻿using System;
 
-namespace guessingGame
+Main();
+
+void Main()
 {
-    class Program
-    {
-        static void Main(string[] args)
-        {
-            Console.WriteLine("Hello World!");
-        }
-    }
+    Console.WriteLine("Guess a number!");
+    string UserAnswer = Console.ReadLine();
+    Console.WriteLine($"{UserAnswer} is your answer!");
 }
+
